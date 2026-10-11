@@ -1,6 +1,6 @@
 def decide_irrigation(soil_moisture, temperature):
     if soil_moisture < 30 and temperature >= 20:
-        return "IRRIGATE"
+        return "SKIP"
     else:
         return "SKIP"
 
